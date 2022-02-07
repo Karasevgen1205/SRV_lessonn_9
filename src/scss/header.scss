@@ -1,0 +1,87 @@
+.image__container {
+  background-image: url("/src/images/hero.png");
+  margin: 0;
+  padding: 0;
+  background-size: 100%;
+}
+
+.header__cart_icon {
+  color: #ffffff;
+}
+
+.header__wrapper {
+  display: flex;
+}
+
+.header__logo {
+  margin-right: 230px;
+}
+
+.hedaer__right {
+  display: flex;
+  align-items: center;
+}
+
+.header__items {
+  margin-right: 25px;
+}
+
+.header__link {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.header__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__vl {
+  width: 51px;
+  height: 0px;
+  border: 1px solid rgb(255, 255, 255);
+  transform: rotate(90deg);
+  margin-left: 15px;
+}
+
+.header__info_info {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+}
+
+.header__info_phone {
+  display: flex;
+}
+
+.header__info {
+  color: #ffffff;
+}
+
+.header__info_phone_number {
+  margin-left: 10px;
+}
+
+.header__info_btn {
+  margin-left: 35px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 157px;
+  height: 47px;
+  background: #ff7400;
+  border: none;
+  padding: 0;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  cursor: pointer;
+  color: #ffffff;
+}
